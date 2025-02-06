@@ -8,9 +8,13 @@ void main() {
       color: Colors.black,
       height: 250.0,
       width: 250.0,
-      child: Center(
-           child: Text('home',style: TextStyle(color: Colors.white))
-      ),
+      child: Column( 
+        mainAxisAlignment: MainAxisAlignment.center,
+        children:[
+              Container(height:50.0, width: 50.0, color: Colors.amber),
+              Container(height:50.0, width: 50.0, color: Colors.red),
+              Container(height:50.0, width: 50.0, color: Colors.green),
+                    ]),
     ),
   )));
 }
